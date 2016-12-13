@@ -11,7 +11,7 @@ render((
   <Router history={hashHistory}>
     <Route path="/" component={App}>
 		{/*可以看成index.html*/}
-		<IndexRoute component={Home} />
+		    <IndexRoute component={Home} />
       	<Route path="/repos" component={Repos}>
         	<Route path="/repos/:userName/:repoName" component={Repo}/>
       	</Route>
